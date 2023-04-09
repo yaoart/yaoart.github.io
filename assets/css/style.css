@@ -233,7 +233,7 @@ section {
     height: 160vh;
     text-align: center;
     background-color: rgba(123, 80, 217, 0.382);
-    background-image: url("../img/beach.jpg");
+    /* background-image: url("../img/beach.jpg"); */
     opacity: 0.5;
     background-size: cover;
     -webkit-animation: slidein 100s;
