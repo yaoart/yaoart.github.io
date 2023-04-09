@@ -134,9 +134,9 @@ section {
 /*---------------------------------- Section------------------------------------ */
 /* intro Section */
 #intro {
-    display: flex;
+    /* display: flex; */
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: url("../img/piano.jpg");
     background-size: cover;
 }
@@ -157,11 +157,11 @@ section {
 
 #intro .intro-container {
 
-    text-align: left;
-    position: absolute;
-    margin: 260px;
+    text-align: auto;
+    /* position: absolute; */
+    padding: 160px;
     z-index: 2;
-    min-width: 750px;
+    /* min-width: 750px; */
 
 }
 
@@ -187,19 +187,31 @@ section {
     border-bottom: 3px solid #a00e2e;
 }
 
+/* @media only screen and (max-width:700px) {
+    .row row-cols-2 {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
 
+    #intro {
+        width: 50%;
 
+    }
+
+} */
+
+/* 
 @media (min-width: 1024px) {
     #intro {
         background-attachment: fixed;
-        /* 背景图位置 */
+     
     }
 }
 
 @media (max-width: 768px) {
     #intro {
         background-attachment: scroll;
-        /* 背景图位置 */
+
     }
 
     #intro h1 {
@@ -212,7 +224,7 @@ section {
         line-height: 1.5em;
         margin-bottom: 1.9em;
     }
-}
+} */
 
 /* Catchcopy*/
 
