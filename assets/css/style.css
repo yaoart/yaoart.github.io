@@ -87,9 +87,10 @@ html {
 /* Sections General */
 
 section {
-    /* margin: 20px; */
+
     padding: 60px 0;
     overflow: hidden;
+
 }
 
 .section-bg {
@@ -117,11 +118,28 @@ section {
     display: block;
     width: 50px;
     height: 3px;
-    background: #a03b74f7;
+    background: #9c336f99;
     bottom: 0;
     left: 0;
 }
 
+.section-title h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #747484;
+}
+
+.contact p {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 25pt;
+    font-family: 'Kosugi', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+}
 
 /*---------------------------------- Section------------------------------------ */
 /* intro Section */
@@ -278,10 +296,10 @@ section {
     font-family: 'Zen Old Mincho', serif;
 }
 
-.catchcopyText {
+.catchcopyText p {
     display: inline-block;
     text-align: left;
-    padding: 100px 150px;
+    padding: 100px 15px;
     font-family: 'Bree Serif', serif;
     font-family: 'Kaisei Tokumin', serif;
     font-family: 'Lato', sans-serif;
@@ -292,6 +310,7 @@ section {
 .catchcopy_img {
     width: 60%;
     height: 50%;
+    position: relative;
 
 }
 
