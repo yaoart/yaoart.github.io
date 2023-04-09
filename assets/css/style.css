@@ -347,6 +347,17 @@ section {
     color: #a00e2e;
 }
 
+.click-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 30px solid #9a3bab6c;
+    cursor: pointer;
+    color: #9a3bab6c;
+    line-height: auto;
+}
+
 /* portfolio section */
 .portfolio .portfolio-item {
 
@@ -509,7 +520,7 @@ section {
         /* display: flex; */
         position: 50%;
         width: 500px;
-        flex-direction: column;
+        /* flex-direction: column; */
 
     }
 
@@ -519,7 +530,7 @@ section {
         line-height: 20px;
         font-weight: 400;
         color: #050d18;
-        margin-left: 10px;
+        margin-left: 30px;
     }
 
     .number .col strong {
@@ -527,8 +538,20 @@ section {
         line-height: 25px;
         font-weight: 400;
         color: #050d18;
-        margin-left: 10px;
+        margin-left: 30px;
 
+    }
+
+    .click-arrow {
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        border-left: 15px solid #9a3bab6c;
+        cursor: pointer;
+        color: #9a3bab6c;
+        line-height: auto;
+        font-size: 10px;
     }
 
     .number img {
