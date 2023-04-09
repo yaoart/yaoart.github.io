@@ -58,9 +58,11 @@ p {
 
 
 
-/* .img {
+.img {
     max-width: 20%;
-    margin-right: 15%;
+    max-height: 20%;
+    margin-right: 280px;
+    display: inline-block;
 }
 
 @media (max-width:1199px) {
@@ -73,7 +75,7 @@ p {
     }
 }
 
- */
+
 
 
 html {
@@ -102,7 +104,7 @@ section {
 }
 
 .section-title h2 {
-    font-size: 2.5em;
+    font-size: 38px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -121,12 +123,20 @@ section {
     left: 0;
 }
 
+.section-title h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #747484;
+}
 
 .contact p {
 
     text-align: center;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 25pt;
     font-family: 'Kosugi', sans-serif;
     font-family: 'Shantell Sans', cursive;
 }
@@ -136,12 +146,13 @@ section {
 #intro {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 140vh;
     background: url("../img/piano.jpg");
     background-size: cover;
+    background-position: center center;
 }
 
-#intro:before {
+/* #intro:before {
     content: "";
     background: rgba(89, 74, 85, 0.272);
     background-blend-mode: screen;
@@ -152,22 +163,25 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
-}
+    z-index: 100;
+} */
 
 #intro .intro-container {
 
     text-align: left;
-    position: absolute;
-    padding: 160px;
-    z-index: 2;
-    min-width: 750px;
+    position: relative;
+    left: 20%;
+    top: 50%;
+    /* margin: 260px; */
+    z-index: 100;
+    width: 100%;
+    /* min-width: 750px; */
 
 }
 
 #intro h1 {
     margin: 0 0 10px 0;
-    font-size: 4em;
+    font-size: 64px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
@@ -176,7 +190,7 @@ section {
 #intro p {
     color: #fff;
     margin-bottom: 50px;
-    font-size: 1.6em;
+    font-size: 26px;
     font-family: "Popins", sans-serif;
 }
 
@@ -187,55 +201,33 @@ section {
     border-bottom: 3px solid #a00e2e;
 }
 
-@media only screen and (max-width:700px) {
-    .row row-cols-2 {
-        flex-direction: column;
-        margin: 50px 0;
-    }
 
-    #intro {
-        /* width: 50%; */
-        background-size: 50%;
-        height: 50vh;
-    }
 
-    .catchcopy_img {
-        width: 60%;
-    }
-
-}
-
-/* 
-@media (min-width: 1024px) {
+@media (min-width: 1024) {
     #intro {
         background-attachment: fixed;
-     
+        /* 背景图位置 */
     }
 }
 
 @media (max-width: 768px) {
-    #intro {
-        background-attachment: scroll;
-
-    }
-
     #intro h1 {
-        font-size: 1.7em;
-        line-height: 2.2em;
+        font-size: 28px;
+        line-height: 36px;
     }
 
     #intro h2 {
-        font-size: 1.1em;
-        line-height: 1.5em;
-        margin-bottom: 1.9em;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
     }
-} */
+}
 
 /* Catchcopy*/
 
 .catchcopy-container {
     width: 100%;
-    /* height: 160vh; */
+    height: 200vh;
     text-align: center;
     background-color: rgba(123, 80, 217, 0.382);
     background-image: url("../img/beach.jpg");
@@ -299,10 +291,10 @@ section {
 
 .catchcopyTitle {
 
-    padding-top: 12.5em;
+    padding-top: 200px;
     text-align: center;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 25pt;
     font-family: 'Kosugi', sans-serif;
     font-family: 'Shantell Sans', cursive;
     font-family: 'Zen Old Mincho', serif;
@@ -311,7 +303,7 @@ section {
 .catchcopyText p {
     display: inline-block;
     text-align: left;
-    padding: 6em 1em;
+    padding: 100px 15px;
     font-family: 'Bree Serif', serif;
     font-family: 'Kaisei Tokumin', serif;
     font-family: 'Lato', sans-serif;
@@ -319,19 +311,24 @@ section {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
+.catchcopy_img {
+    width: 100%;
+    /* height: 50%; */
+    position: relative;
 
+}
 
 /* Number */
 
 
 .number .col {
-    text-align: center;
+    margin: 100px auto 150px;
+
 }
 
 /* 数字 */
 .number .col span {
-    text-align: center;
-    font-size: 3em;
+    font-size: 50px;
     line-height: 40px;
     font-weight: 800;
     color: #050d18;
@@ -339,7 +336,7 @@ section {
 }
 
 .number .col strong {
-    font-size: 1.3em;
+    font-size: 20px;
     line-height: 40px;
     font-weight: 800;
     color: #050d18;
@@ -465,6 +462,7 @@ section {
 }
 
 .contact .info {
+    height: 30px;
     padding: 30px;
     background: #00000000;
     width: 100%;
@@ -484,6 +482,68 @@ section {
 }
 
 @media (max-width: 768px) {
+    #intro {
+        width: 100%;
+        height: 50vh;
+        background-position: 70%;
+    }
+
+    .catchcopy-container {
+        height: 100vh;
+        /* height: 25%; */
+    }
+
+    .catchcopyTitle {
+        padding-top: 80px;
+        /* height: 25%; */
+    }
+
+    .catchcopy_img {
+        width: 100%;
+        /* height: 25%; */
+    }
+
+
+    .number .col {
+        margin: 10px auto 15px;
+        /* display: flex; */
+        position: 50%;
+        width: 500px;
+        flex-direction: column;
+
+    }
+
+    /* 数字 */
+    .number .col span {
+        font-size: 25px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #050d18;
+        margin-left: 10px;
+    }
+
+    .number .col strong {
+        font-size: 10px;
+        line-height: 25px;
+        font-weight: 400;
+        color: #050d18;
+        margin-left: 10px;
+
+    }
+
+    .number img {
+        display: none;
+
+    }
+
+    .contact p {
+        font-size: 20pt;
+    }
+
+    .portfolio-wrap a {
+        padding-left: 35px;
+    }
+
     .breadcrumbs .d-flex {
         display: block !important;
     }
