@@ -189,7 +189,7 @@ section {
 
 
 
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
     #intro {
         background-attachment: fixed;
         /* 背景图位置 */
