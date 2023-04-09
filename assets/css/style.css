@@ -61,7 +61,7 @@ p {
 /* .img {
     max-width: 20%;
     margin-right: 15%;
-} */
+}
 
 @media (max-width:1199px) {
     #header {
@@ -73,7 +73,7 @@ p {
     }
 }
 
-
+ */
 
 
 html {
@@ -302,19 +302,15 @@ section {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-.catchcopy_img {
-    width: auto;
-    height: 50%;
-    /* position: relative; */
 
-}
 
 /* Number */
 
 
 .number .col {
-    margin: 100px auto 150px;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
 }
 
 /* 数字 */
