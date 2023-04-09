@@ -60,9 +60,7 @@ p {
 
 .img {
     max-width: 20%;
-    max-height: 20%;
-    margin-right: 280px;
-    display: inline-block;
+    margin-right: 15%;
 }
 
 @media (max-width:1199px) {
@@ -104,7 +102,7 @@ section {
 }
 
 .section-title h2 {
-    font-size: 38px;
+    font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -123,20 +121,12 @@ section {
     left: 0;
 }
 
-.section-title h2 {
-    font-size: 38px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #747484;
-}
 
 .contact p {
 
     text-align: center;
     font-weight: 700;
-    font-size: 25pt;
+    font-size: 2em;
     font-family: 'Kosugi', sans-serif;
     font-family: 'Shantell Sans', cursive;
 }
@@ -177,7 +167,7 @@ section {
 
 #intro h1 {
     margin: 0 0 10px 0;
-    font-size: 64px;
+    font-size: 4em;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
@@ -186,7 +176,7 @@ section {
 #intro p {
     color: #fff;
     margin-bottom: 50px;
-    font-size: 26px;
+    font-size: 1.6em;
     font-family: "Popins", sans-serif;
 }
 
@@ -207,15 +197,20 @@ section {
 }
 
 @media (max-width: 768px) {
+    #intro {
+        background-attachment: scroll;
+        /* 背景图位置 */
+    }
+
     #intro h1 {
-        font-size: 28px;
-        line-height: 36px;
+        font-size: 1.7em;
+        line-height: 2.2em;
     }
 
     #intro h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin-bottom: 1.9em;
     }
 }
 
