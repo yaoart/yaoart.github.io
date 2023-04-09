@@ -58,10 +58,10 @@ p {
 
 
 
-.img {
+/* .img {
     max-width: 20%;
     margin-right: 15%;
-}
+} */
 
 @media (max-width:1199px) {
     #header {
@@ -282,10 +282,10 @@ section {
 
 .catchcopyTitle {
 
-    padding-top: 200px;
+    padding-top: 12.5em;
     text-align: center;
     font-weight: 700;
-    font-size: 25pt;
+    font-size: 2em;
     font-family: 'Kosugi', sans-serif;
     font-family: 'Shantell Sans', cursive;
     font-family: 'Zen Old Mincho', serif;
@@ -294,7 +294,7 @@ section {
 .catchcopyText p {
     display: inline-block;
     text-align: left;
-    padding: 100px 15px;
+    padding: 6em 1em;
     font-family: 'Bree Serif', serif;
     font-family: 'Kaisei Tokumin', serif;
     font-family: 'Lato', sans-serif;
@@ -303,9 +303,9 @@ section {
 }
 
 .catchcopy_img {
-    width: 60%;
+    width: auto;
     height: 50%;
-    position: relative;
+    /* position: relative; */
 
 }
 
