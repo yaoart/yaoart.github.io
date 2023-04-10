@@ -218,7 +218,7 @@ section {
 
     #intro h2 {
         font-size: 15px;
-        line-height: 20px;
+        line-height: 24px;
         margin-bottom: 30px;
     }
 }
@@ -251,7 +251,7 @@ section {
 }
 
 
-
+/* 
 @-webkit-keyframes slidein {
     from {
         background-position: center;
@@ -275,7 +275,7 @@ section {
         background-size: 2750px;
     }
 
-}
+} */
 
 .catchcopy-container h1 {
 
@@ -608,7 +608,7 @@ section {
     }
 
 
-
+    /* 
     @-webkit-keyframes slidein {
         from {
             background-position: center;
@@ -632,7 +632,7 @@ section {
             background-size: 375px;
         }
 
-    }
+    } */
 }
 
 @media (max-width: 1199px) {
