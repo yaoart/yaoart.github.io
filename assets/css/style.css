@@ -584,23 +584,23 @@ section {
 
     .catchcopy-container {
         width: 100%;
-        height: 5%;
+        height: 100vh;
         text-align: center;
         background-color: rgba(123, 80, 217, 0.382);
         background-image: url("../img/beach.jpg");
         opacity: 0.5;
-        /* background-size: cover; */
+        background-size: cover;
         -webkit-animation: slidein 100s;
         animation: slidein 100s;
 
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
 
-        -webkit-animation-iteration-count: infinite;
-        animation-iteration-count: infinite;
+        -webkit-animation-iteration-count: 0;
+        animation-iteration-count: 0;
 
-        -webkit-animation-direction: alternate;
-        animation-direction: alternate;
+        -webkit-animation-direction: none;
+        animation-direction: none;
 
 
         background-blend-mode: overlay;
@@ -616,8 +616,8 @@ section {
         }
 
         to {
-            background-position: -10px 0px;
-            background-size: 375px;
+            background-position: center;
+            background-size: 800px;
         }
     }
 
@@ -628,8 +628,8 @@ section {
         }
 
         to {
-            background-position: -10px 0px;
-            background-size: 375px;
+            background-position: top;
+            background-size: 500px;
         }
 
     }
