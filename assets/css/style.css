@@ -627,6 +627,10 @@ section {
         bottom: 5vh;
     }
 
+    .catchcopyTitle {
+        padding-top: 100px;
+    }
+
     @-webkit-keyframes slidein {
         from {
             background-position: center;
