@@ -427,13 +427,13 @@ section {
     /* 将元素设置为固定定位 */
     bottom: 50vh;
     /* 将元素设置在底部距离浏览器窗口底部20px的位置 */
-    right: 0px;
+    right: -80px;
     /* 将元素设置在右侧距离浏览器窗口右侧20px的位置 */
 }
 
 .back-to-top img {
 
-    width: 20%;
+    width: 15%;
     opacity: 0.5;
 }
 
@@ -609,6 +609,16 @@ section {
         }
 
     }
+
+    .back-to-top {
+        display: none;
+    }
+
+    .back-to-top img {
+        display: none;
+    }
+
+
 }
 
 @media (max-width: 1199px) {

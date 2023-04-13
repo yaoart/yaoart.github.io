@@ -129,7 +129,7 @@ const backToTop = document.querySelector('.back-to-top');
 
 // 监听页面滚动事件
 window.addEventListener('scroll', () => {
-  if (window.pageYOffset > 780) { // 当滚动高度超过700px 时
+  if (window.pageYOffset > 850) { // 当滚动高度超过700px 时
     backToTop.style.display = 'block'; // 显示回到顶部图标
   } else {
     backToTop.style.display = 'none'; // 隐藏回到顶部图标
