@@ -179,9 +179,9 @@ section {
     /* 隱藏邊界之外的部分 */
     border-radius: 50%;
     /* 將元素設置為圓形 */
-    width: 22em;
+    width: 20em;
     /* 設置元素寬度 */
-    height: 22em;
+    height: 20em;
     /* 設置元素高度 */
 }
 
@@ -385,28 +385,7 @@ section {
     background-color: #333;
 }
 
-/* 修改Lightbox的字体 */
-.data-glightbox .title {}
 
-/* 修改Lightbox的字号 */
-.lb-caption {}
-
-/* 修改Lightbox的背景颜色 */
-.lb-container {
-    background-color: #333;
-}
-
-/* 修改Lightbox的文字颜色 */
-.lb-caption {
-    color: #fff;
-}
-
-/* 修改Lightbox的字体和颜色 */
-.lb-caption {
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-size: 16px;
-    color: #fff;
-}
 
 .img-fluid {
     width: 80%;
